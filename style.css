@@ -9,34 +9,3 @@ header {
   position: fixed;
   background-color: #333333;
 }
-
-nav {
-  margin: 0;
-  padding: 20px 0;
-}
-
-nav li {
-  display: inline-block;
-  width: 80px;
-  color: #fff;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  font-size: 12px;
-}
-
-main {
-  top: 80px;
-  position: relative;
-  text-align: center;
-}
-
-main h1 {
-  color: #333;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  font-size: 70px;
-  margin-top: 0px;
-  padding-top: 80px;
-  margin-bottom: 80px;
-  text-transform: uppercase;
-}
