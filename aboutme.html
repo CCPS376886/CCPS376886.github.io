@@ -1,29 +1,187 @@
 <!DOCTYPE html>
+
 <html>
-  <head>
-    <title>About Me</title>
-    <link rel="stylesheet" href="./stylecss" type="text/css">
+  
+     <head> 
+         <title>About Me</title>
+        <style> 
+
+   html, body { 
+  margin: 0; 
+  padding: 0; 
+} 
+
+header { 
+  z-index: 1; 
+  width: 100%; 
+  position: fixed; 
+  background-color: #333333; 
+} 
+
+nav { 
+  margin: 0; 
+  padding: 20px 0; 
+} 
+
+nav li { 
+  display: inline-block; 
+  width: 80px; 
+  color: #fff; 
+  font-family: 'Raleway', sans-serif; 
+  font-weight: 600; 
+  font-size: 12px; 
+} 
+
+main { 
+  top: 80px;
+  position: relative;
+  text-align: center; 
+} 
+
+
+main h1 { 
+  color: #333;
+  font-family: 'Raleway', sans-serif; 
+  font-weight: 600; 
+  font-size: 70px; 
+  margin-top: 0px; 
+  padding-top: 80px; 
+  margin-bottom: 80px; 
+  text-transform: uppercase; 
+} 
+
+footer { 
+  position: fixed; 
+  width: 100%; 
+  z-index: 1; 
+  bottom: 0; 
+  background-color: #333; 
+  color: #fff; 
+  padding: 30px 0; 
+} 
+
+footer p { 
+  font-family: 'Raleway', sans-serif; 
+  text-transform: uppercase; 
+  font-size: 11px; 
+} 
+
+  .container { 
+  max-width: 940px; 
+  margin: 0 auto; 
+  padding: 0 10px; 
+  text-align: center; 
+} 
+
+.jumbotron { 
+  height: 800px; 
+  background-image: url("https://bwvision.com/wp-content/uploads/2018/07/NYC-Aerial-view-min.jpg");
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover;
+  background-size: cover; 
+} 
+
+.btn-main { 
+  background-color: #333; 
+  color: #fff; 
+  font-family: 'Raleway', sans-serif; 
+  font-weight: 600;
+  font-size: 18px; 
+  letter-spacing: 1.3px; 
+  padding: 16px 40px; 
+  text-decoration: none; 
+  text-transform: uppercase; 
+} 
+
+.btn-default { 
+  font-family: 'Raleway', sans-serif; 
+  font-weight: 600;
+  font-size: 10px; 
+  letter-spacing: 1.3px; 
+  padding: 10px 20px;
+  text-decoration: none; 
+  text-transform: uppercase;   
+  margin-bottom: 20px;      
+} 
+
+.supporting { 
+  padding-top: 80px; 
+  padding-bottom: 100px; 
+} 
+
+.supporting .col { 
+  height: 200px; 
+  width: 200px; 
+  display: inline-block; 
+  font-family: 'Raleway', sans-serif;
+  text-align: center; 
+} 
+
+.supporting img { 
+  height: 32px; 
+} 
+
+.supporting h2 { 
+  font-weight: 600; 
+  font-size: 23px; 
+  text-transform: uppercase; 
+} 
+
+.supporting p { 
+  font-weight: 400; 
+  font-size: 14px; 
+  line-height: 20px; 
+  padding: 0 20px; 
+  margin-bottom: 20px;
+} 
+
+.supporting a { 
+  background-color: white; 
+  color: #333333; 
+  font-family: 'Raleway', sans-serif; 
+  font-weight: 600; 
+  font-size: 12px; 
+  letter-spacing: 1.3px;
+  text-decoration: none; 
+  text-transform: uppercase;
+  padding: 10px; 
+  margin-bottom: 10px; 
+  border: 2px solid #333333;  
+} 
+
+@media (max-width: 500px) { 
+  main h1 { 
+    font-size: 50px; 
+    padding: 0 40px; 
+  } 
+
+    .supporting .col { 
+    width: 100%; 
+  } 
+} 
+
+  </style> 
+  </head> 
+  
+  <body>
+     <h1>About Me</h1> 
+    <p> What I'm working on to have a dream of who I want to be when I'm older and I still haven't decided yet. Right now, I've set up goals that's going to help me find my dream so that's why I set a goal that going to help me learn new experiences and motivate me and setting other new goals. 
+The ways I am working on to achieve my goal is by putting all of my effort in trying to be the very best I can be and to never give up. My education in school has help me learn a lot of new things and use them in a daily life. One of the values that I consider most necessary for my success is "Don't give up till it's over." And another value I consider is "Take charge of your own destiny."  
+One of the short-term goals I have that I want to accomplish is to stress less and know it's ok not to always finish everything in time and do not rush. Another short-term goal that I want to accomplish is to learn from others and ask for help whenever you need it, it does not hurt to ask at all. 
+The character traits that I most want to be known for being ambitious, hardworking, imaginative, organized, and independent. For my achievements, I want to be most known for helping someone in need, remaining calm in a trying situation, and to never fall but I rise again after I fall.<p> 
+    </body> 
+  
+</html>
+
+ <link rel="stylesheet" href="./stylecss" type="text/css">
   </head>
   <header>
     <nav>
-      <ul>
+      <ul> 
         <a href="./index.html"><li>Home</li></a>
         <a href="./aboutme.html"><li>About Me</li></a>
-        <a href="./myresume.pdf"><li>My Resume</li></a>
+        <a href="./myresume.pdf" target="_blank"><li>My Resume</li></a>
       </ul>
     </nav>
   </header>
-  <body>
-    <h1>About Me</h1>
-    <p> What I'm working on to have a dream of who I want to be when I'm older and I still haven't decided yet. Right now, I've set up goals that's going to help me find my dream so that's why I set a goal that going to help me learn new experiences and motivate me and setting other new goals.
-
- The ways I am working on to achieve my goal is by putting all of my effort in trying to be the very best I can be and to never give up. My education in school has help me learn a lot of new things and use them in a daily life. 
- One of the values that I consider most necessary for my success is "Don't give up till it's over." And another value I consider is "Take charge of your own destiny." 
-
-One of the short-term goals I have that I want to accomplish is to stress less and know it's ok not to always finish everything in time and do not rush. Another short-term goal that I want to accomplish is to learn from others and ask for help whenever you need it, it does not hurt to ask at all.
-
-The character traits that I most want to be known for being ambitious, hardworking, imaginative, organized, and independent. For my achievements, I want to be most known for helping someone in need, remaining calm in a trying situation, and to never fall but I rise again after I fall.<p>
-    </body>
-  <footer>
-  </footer>
-</html>
